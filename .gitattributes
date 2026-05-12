@@ -10,3 +10,6 @@ py/private/release/version.bzl export-subst
 # is data-only (the write_source_files rule lives in the parent BUILD.bazel),
 # so the whole tree can be marked generated.
 **/snapshots/** linguist-generated
+
+# assert_tar_listing checked-in tar listings, written by write_source_file.
+e2e/cases/**/*_listing.yaml linguist-generated
